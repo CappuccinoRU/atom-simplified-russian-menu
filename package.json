@@ -1,7 +1,7 @@
 {
   "name": "simplified-russian-menu",
   "main": "./lib/main",
-  "version": "1.2.1",
+  "version": "0.1.0",
   "description": "Localization menu, context menu in Atom.io",
   "repository": {
     "type": "git",
