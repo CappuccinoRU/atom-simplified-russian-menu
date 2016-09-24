@@ -1,0 +1,302 @@
+Menu:
+  "&File":
+    value: "Файл(&F)"
+    submenu:
+      "New &Window":
+        value: "Новое окно(&W)"
+      "&New File":
+        value: "Новый файл(&N)"
+      "&Open File...":
+        value: "Открыть файл(&O)..."
+      "Open Folder...":
+        value: "Открыть папку..."
+      "Add Project Folder...":
+        value: "Добавить папку проекта..."
+      "Reopen Last &Item":
+        value: "Открыть закрытый файл(&I)"
+      "Se&ttings":
+        value: "Настройки(&T)..."
+      "Config...":
+        value: "Конфигурация..."
+      "Init Script...":
+        value: "Инициализирующий скрипт..."
+      "Keymap...":
+        value: "Сочетания клавиш..."
+      "Snippets...":
+        value: "Сниппеты..."
+      "Stylesheet...":
+        value: "Цветовая тема..."
+      "VERSION":
+        value: "Релиз"
+      "&Save":
+        value: "Сохранить(&S)"
+      "Save &As...":
+        value: "Сохранить как(&A)..."
+      "Save A&ll":
+        value: "Сохранить все(&L)"
+      "&Close Tab":
+        value: "Закрыть вкладку(&C)"
+      "Close &Pane":
+        value: "Закрыть панель(&P)"
+      "Clos&e Window":
+        value: "Закрыть окно(&E)"
+      "E&xit":
+        value: "Выход(&X)"
+      "Close All Tabs":
+        value: "Закрыть все вкладки"
+  "&Edit":
+    value: "Изменить(&E)"
+    submenu:
+      "&Undo":
+        value: "Отменить(&U)"
+      "&Redo":
+        value: "Повторить(&R)"
+      "Cu&t":
+        value: "Вырезать(&T)"
+      "&Copy":
+        value: "Копировать(&C)"
+      "Copy Pat&h":
+        value: "Копировать путь(&H)"
+      "&Paste":
+        value: "Вставить(&P)"
+      "Select &All":
+        value: "Выделить все(&A)"
+      "&Toggle Comments":
+        value: "Триггер: Комментарии(&T)"
+      Lines:
+        value: "Строки"
+        submenu:
+          "&Indent":
+            value: "Добавить отступ(&I)"
+          "&Outdent":
+            value: "Уменьшить отступ(&O)"
+          "&Auto Indent":
+            value: "Автоотступ(&A)"
+          "Move Line &Up":
+            value: "Переместить строку вверх(&U)"
+          "Move Line &Down":
+            value: "Переместить строку вниз(&D)"
+          "Du&plicate Lines":
+            value: "Дублировать строку(&P)"
+          "D&elete Line":
+            value: "Удалить строку(&E)"
+          "&Join Lines":
+            value: "Слияние строк(&J)"
+      Columns:
+        value: "Столбцы"
+        submenu:
+          "Move Selection &Left":
+            value: "Выберать столбец слева"
+          "Move Selection &Right":
+            value: "Выберать столбец справа"
+      Text:
+        value: "Текст"
+        submenu:
+          "&Upper Case":
+            value: "Верхний регистр(&U)"
+          "&Lower Case":
+            value: "Нижний регистр(&L)"
+          "Delete to End of &Word":
+            value: "Удалить до конца слова(&W)"
+          "Delete to Previous Word Boundary":
+            value: "Удалить предыдущее слово к границе"
+          "Delete to Next Word Boundary":
+            value: "Удалить к следующей границе слова"
+          "&Delete Line":
+            value: "Удалить строку(&D)"
+          "&Transpose":
+            value: "Инвертировать(&T)"
+      Folding:
+        value: "Свертывание"
+        submenu:
+          "&Fold":
+            value: "Свернуть(&F)"
+          "&Unfold":
+            value: "Развернуть(&U)"
+          "Unfold &All":
+            value: "Развернуть все(&A)"
+          "Fol&d All":
+            value: "Свернуть все(&D)"
+          "Fold Level 1":
+            value: "Свернуть уровень 1"
+          "Fold Level 2":
+            value: "Свернуть уровень 2"
+          "Fold Level 3":
+            value: "Свернуть уровень 3"
+          "Fold Level 4":
+            value: "Свернуть уровень 4"
+          "Fold Level 5":
+            value: "Свернуть уровень 5"
+          "Fold Level 6":
+            value: "Свернуть уровень 6"
+          "Fold Level 7":
+            value: "Свернуть уровень 7"
+          "Fold Level 8":
+            value: "Свернуть уровень 8"
+          "Fold Level 9":
+            value: "Свернуть уровень 9"
+      "Reflow Selection":
+        value: "Reflow Selection"
+      Bookmark:
+        value: "Закладка"
+        submenu:
+          "View All":
+            value: "Показать все"
+          "Toggle Bookmark":
+            value: "Установить/снять закладку"
+          "Jump to Next Bookmark":
+            value: "Перейти к следующей закладке"
+          "Jump to Previous Bookmark":
+            value: "Перейти к предыдущей закладке"
+      "Select Encoding":
+        value: "Выбрать кодировку"
+      "Go to Line":
+        value: "Перейти к строке №..."
+      "Select Grammar":
+        value: "Выбрать синтаксис"
+  "&View":
+    value: "Просмотреть(&V)"
+    submenu:
+      "Toggle &Full Screen":
+        value: "Вкл/Выкл полноэкранный режим(&F)"
+      "Toggle Menu Bar":
+        value: "Показ/Скрыть строку Меню"
+      Panes:
+        value: "Панель"
+        submenu:
+          "Split Up":
+            value: "Разделить ↑"
+          "Split Down":
+            value: "Разделить ↓"
+          "Split Left":
+            value: "Разделить ←"
+          "Split Right":
+            value: "Разделить →"
+          "Focus Next Pane":
+            value: "Фокус на следующую панель"
+          "Focus Previous Pane":
+            value: "Фокус на предыдущую панель"
+          "Focus Pane Above":
+            value: "Фокус на ↑ панель"
+          "Focus Pane Below":
+            value: "Фокус на ↓ панель"
+          "Focus Pane On Left":
+            value: "Фокус на ← панель"
+          "Focus Pane On Right":
+            value: "Фокус на → панель"
+          "Close Pane":
+            value: "Закрыть панель"
+      Developer:
+        value: "Разработчик"
+        submenu:
+          "Open In &Dev Mode...":
+            value: "Открыть в режиме разработчика(&D)"
+          "&Reload Window":
+            value: "Обновить окно"
+          "Run Package &Specs":
+            value: "Запуск спецификации расширения(&S)"
+          "Toggle Developer &Tools":
+            value: "Инструменты разработчика(&T)"
+      "&Increase Font Size":
+        value: "Размер шрифта ↑"
+      "&Decrease Font Size":
+        value: "Размер шрифта ↓"
+      "Re&set Font Size":
+        value: "Размер шрифта по умолчанию"
+      "Toggle Soft &Wrap":
+        value: "Вкл/Выкл перенос текста(&W)"
+      "Toggle Command Palette":
+        value: "Командная панель"
+      "Toggle Tree View":
+        value: "Показ/Скрыть боковую панель"
+  "&Selection":
+    value: "Выделение(&S)"
+    submenu:
+      "Add Selection &Above":
+        value: "Добавить выделение ↑(&A)"
+      "Add Selection &Below":
+        value: "Добавить выделение ↓(&B)"
+      "S&plit into Lines":
+        value: "Разделить на линии(&P)"
+      "Single Selection":
+        value: "Отобрать одно выделение"
+      "Select to &Top":
+        value: "Выделение до начала файла(&T)"
+      "Select to Botto&m":
+        value: "ВЫделение до конца файла(&M)"
+      "Select &Line":
+        value: "Выделить строку(&L)"
+      "Select &Word":
+        value: "Выделить слово(&W)"
+      "Select to Beginning of W&ord":
+        value: "Выделение до начала слова(&O)"
+      "Select to Beginning of L&ine":
+        value: "Выделение до начала строки(&I)"
+      "Select to First &Character of Line":
+        value: "Выделение до первого символа строки(&C)"
+      "Select to End of Wor&d":
+        value: "Выделение до конца слова(&D)"
+      "Select to End of Lin&e":
+        value: "Выделение до конца строки(&E)"
+      "Select Inside Brackets":
+        value: "Выделить содержимое в скобках"
+  "F&ind":
+    value: "Поиск(&I)"
+    submenu:
+      "Find in Buffer":
+        value: "Найти в буфере..."
+      "Replace in Buffer":
+        value: "Заменить в буфере..."
+      "Select Next":
+        value: "Выбрать далее"
+      "Select All":
+        value: "Выбрать все"
+      "Toggle Find in Buffer":
+        value: "Показать/Скрыть Поиск в буфере"
+      "Find in Project":
+        value: "Найти в проекте..."
+      "Toggle Find in Project":
+        value: "Показать/Скрыть Поиск в проекте"
+      "Find Next":
+        value: "Найти следующий"
+      "Find Previous":
+        value: "Найти предыдущий"
+      "Replace Next":
+        value: "Заменить следующий"
+      "Replace All":
+        value: "Заменить все"
+      "Clear History":
+        value: "Очистить историю"
+      "Find Buffer":
+        value: "Найти буфер"
+      "Find File":
+        value: "Найти файл"
+      "Find Modified File":
+        value: "Найти модифицированный файл"
+  "&Packages":
+    value: "Расширения(&P)"
+  "&Help":
+    value: "Справка(&H)"
+    submenu:
+      "View &Terms of Use":
+        value: "Условия использования"
+      "View &License":
+        value: "Просмотреть лицензию"
+      "&Documentation":
+        value: "Документация(&D)"
+      Roadmap:
+        value: "Заметки о выпуске"
+      "Frequently Asked Questions":
+        value: "Часто задаваемые вопросы"
+      "Community Discussions":
+        value: "Обсуждения сообщества"
+      "Report Issue":
+        value: "Сообщить о проблемах"
+      "Search Issues":
+        value: "Поиск вопроса"
+      "Release Notes":
+        value: "Примечания к выпуску"
+      "About Atom":
+        value: "О программе"
+      "Welcome Guide":
+        value: "Начальное руководство"

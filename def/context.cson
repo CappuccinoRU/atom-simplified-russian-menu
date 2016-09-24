@@ -1,0 +1,103 @@
+Context:
+  "atom-workspace":
+    "application:inspect": "Проверка"
+  "atom-text-editor":
+    "color-picker:open": "Выбор цвета"
+    "minimap:toggle": "Триггер отображения кода"
+  "atom-text-editor, .overlayer":
+    "core:undo": "Отменить"
+    "core:redo": "Повторить"
+    "core:cut": "Вырезать"
+    "core:copy": "Копировать"
+    "core:paste": "Вставить"
+    "core:delete": "Удалить"
+    "core:select-all": "Выделить все"
+    "pane:split-up": "Разделить ↑"
+    "pane:split-down": "Разделить ↓"
+    "pane:split-left": "Разделить ←"
+    "pane:split-right": "Разделить →"
+    "pane:close": "Закрыть"
+  "atom-pane":
+    "pane:split-up": "Разделить ↑"
+    "pane:split-down": "Разделить ↓"
+    "pane:split-left": "Разделить ←"
+    "pane:split-right": "Разделить →"
+    "pane:close": "Закрыть"
+  "atom-text-editor:not([mini])":
+    "encoding-selector:show": "Выбрать кодировки"
+    "spell-check:correct-misspelling": "Проверка орфографии"
+    "symbols-view:go-to-declaration": "Перейти к объявлению"
+  "atom-pane[data-active-item-path] .item-views":
+    "tree-view:reveal-active-file": "Перейдите в каталог"
+  "atom-pane[data-active-item-path] .tab.active":
+    "tree-view:reveal-active-file": "Перейдите в каталог"
+  ".overlayer":
+    "autocomplete:toggle": "Триггер: Autocomplete"
+    "grammar-selector:show": "Выбрать синтаксис"
+  ".image-view":
+    "image-view:reload": "Обновить изображение"
+  ".tab":
+    "tabs:close-tab": "Закрыть вкладки"
+    "tabs:close-other-tabs": "Закрыть другие вкладки"
+    "tabs:close-tabs-to-right": "Закрыть вкладки справа"
+    "tabs:close-saved-tabs": "Сохранить и закрыть вкладки"
+    "tabs:close-all-tabs": "Закрыть все вкладки"
+    "tabs:split-up": "Разделить ↑"
+    "tabs:split-down": "Разделить ↓"
+    "tabs:split-left": "Разделить ←"
+    "tabs:split-right": "Разделить →"
+  ".tab-bar":
+    "pane:reopen-closed-item": "Открыть закрытую вкладку"
+  ".tree-view.full-menu":
+    "tree-view:add-file": "Новый файл"
+    "tree-view:add-folder": "Новая папка"
+    "tree-view:move": "Переместить"
+    "tree-view:duplicate": "Дублировать"
+    "tree-view:remove": "Удалить"
+    "tree-view:copy": "Копировать"
+    "tree-view:cut": "Вырезать"
+    "tree-view:paste": "Вставить"
+    "tree-view:open-selected-entry-up": "Разделить ↑"
+    "tree-view:open-selected-entry-down": "Разделить ↓"
+    "tree-view:open-selected-entry-left": "Разделить ←"
+    "tree-view:open-selected-entry-right": "Разделить →"
+    "application:add-project-folder": "Добавить папку проекта"
+    "tree-view:copy-full-path": "Копировать полный путь"
+    "tree-view:copy-project-path": "Копировать путь проекта"
+    "tree-view:open-in-new-window": "Открыть в новом окне"
+  '.tree-view.full-menu [is="tree-view-file"]':
+    "tree-view:open-selected-entry-up": "Разделить ↑"
+    "tree-view:open-selected-entry-down": "Разделить ↓"
+    "tree-view:open-selected-entry-left": "Разделить ←"
+    "tree-view:open-selected-entry-right": "Разделить →"
+  ".tree-view.full-menu .project-root > .header":
+    "tree-view:add-file": "Новый файл"
+    "tree-view:add-folder": "Новая папка"
+    "tree-view:move": "Переместить"
+    "tree-view:duplicate": "Дублировать"
+    "tree-view:remove": "Удалить"
+    "tree-view:copy": "Копировать"
+    "tree-view:cut": "Вырезать"
+    "tree-view:paste": "Вставить"
+    "tree-view:open-selected-entry-up": "Разделить ↑"
+    "tree-view:open-selected-entry-down": "Разделить ↓"
+    "tree-view:open-selected-entry-left": "Разделить ←"
+    "tree-view:open-selected-entry-right": "Разделить →"
+    "application:add-project-folder": "Добавить папку проекта"
+    "tree-view:remove-project-folder": "Удалить папку проекта"
+    "tree-view:copy-full-path": "Копировать полный путь"
+    "tree-view:copy-project-path": "Копировать путь проекта"
+    "tree-view:open-in-new-window": "Открыть в новом окне"
+  ".platform-darwin .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Показать в Finder"
+  ".platform-win32 .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Открыть в проводнике"
+  ".platform-linux .tree-view.full-menu":
+    "tree-view:show-in-file-manager": "Открыть в проводнике"
+  ".tree-view > li.directory":
+    "project-find:show-in-current-directory": "Поиск в каталоге"
+  ".tree-view.multi-select":
+    "tree-view:remove": "Удалить"
+    "tree-view:copy": "Копировать"
+    "tree-view:cut": "Вырезать"
+    "tree-view:paste": "Вставить"

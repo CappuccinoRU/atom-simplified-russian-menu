@@ -1,0 +1,297 @@
+Settings:
+  menu: [
+    {
+      label: 'Core'
+      value: 'Основные'
+    }
+    {
+      label: 'Editor'
+      value: 'Редактор'
+    }
+    {
+      label: 'System'
+      value: 'Система'
+    }
+    {
+      label: 'Keybindings'
+      value: 'Сочетания клавиш'
+    }
+    {
+      label: 'Packages'
+      value: 'Расширения'
+    }
+    {
+      label: 'Themes'
+      value: 'Темы'
+    }
+    {
+      label: 'Updates'
+      value: 'Обновления'
+    }
+    {
+      label: 'Install'
+      value: 'Установка'
+    }
+  ]
+  sectionHeadings: [
+    {label: 'Core Settings', value: 'Основные настройки'}
+    {label: 'Editor Settings', value: 'Настройки редактора'}
+    {label: 'System Settings', value: 'Системные настройки'}
+    {label: 'Keybindings', value: 'Сочентания клавиш'}
+    {label: 'Installed Packages', value: 'Установленные расширения'}
+    {label: 'Choose a Theme', value: 'Выберите тему'}
+    {label: 'Installed Themes', value: 'Установленные темы'}
+    {label: 'Install Packages', value: 'Установка расширений'}
+    {label: 'Featured Packages', value: 'Рекомендуемые расширения'}
+    {label: 'Install Themes', value: 'Установка тем'}
+    {label: 'Featured Themes', value: 'Рекомендуемые темы'}
+  ]
+  subSectionHeadings: [
+    {label: 'Community Packages', value: 'Расширения сообщества'}
+    {label: 'Core Packages', value: 'Основные расширения'}
+    {label: 'Development Packages', value: 'Разрабатываемые расширения'}
+    {label: 'Community Themes', value: 'Темы сообщества'}
+    {label: 'Core Themes', value: 'Основные темы'}
+    {label: 'Development Themes', value: 'Разрабатываемые темы'}
+    {label: 'Invisibles', value: 'Невидимые элементы'}
+  ]
+  settings: [
+    {
+      id: 'core.allowPendingPaneItems'
+      title: 'Allow Pending Pane Items*'
+      desc: 'Allow items to be previewed without adding them to a pane permanently, such as when single clicking files in the tree view.*'
+    }
+    {
+      id: 'core.audioBeep'
+      title: 'Звуковой сигнал'
+      desc: 'Инициируется сигнал системы, когда определенные действия не могут быть выполнены или нет никаких результатов.'
+    }
+    {
+      id: 'core.autoHideMenuBar'
+      title: 'Автоматически скрыть панель меню'
+      desc: 'Автоматически скрывать панель меню, показать его, нажав Alt. Это поддерживается только на Windows, и Linux.'
+    }
+    {
+      id: 'core.automaticallyUpdate'
+      title: 'Автоматическое обновление'
+      desc: 'Автоматическое обновление Atom, когда доступен новый релиз.'
+    }
+    {
+      id: 'core.closeEmptyWindows'
+      title: 'Закрывать пустые окна'
+      desc: 'Закрывается окно, когда оно без каких-либо открытых вкладок или панелей.'
+    }
+    {
+      id: 'core.destroyEmptyPanes'
+      title: 'Автоматически закрыть пустую панель'
+      desc: 'Когда содержимое панели файла удаляется, панель будет закрыта.'
+    }
+    {
+      id: 'core.excludeVcsIgnoredPaths'
+      title: 'Исключить путь, который был проигнорирован Системой Управления Версиями (VCS)'
+      desc: 'Файлы и каталоги, игнорируемые системой VCS текущего проекта будут проигнорированы, такие как нечеткий поиск и замена. Например, проекты с использованием Git, определенные в файле .gitignore. Индивидуальные пакеты могут иметь дополнительные параметры конфигурации для игнорирования VCS файлов и папок.'
+    }
+    {
+      id: 'core.fileEncoding'
+      title: 'Кодировка файла'
+      desc: 'Кодировка набора символов по умолчанию, для использования при чтении и записи файлов.'
+    }
+    {
+      id: 'core.followSymlinks'
+      title: 'Следовать за символьными ссылками'
+      desc: 'Перейдти по символьным ссылкам при поиске файлов и когда вводные файлы с нечетким средством поиска.'
+    }
+    {
+      id: 'core.ignoredNames'
+      title: 'Игнорируемые файлы'
+      desc: 'Строка задает список экземпляров. При соответствии, список каталога или документа будет игнорироваться, такие как нечеткие запросы и представление в виде дерева. Индивидуальное расширение может иметь дополнительные параметры игнора.'
+    }
+    {
+      id: 'core.openEmptyEditorOnStart'
+      title: 'Открыть пустой редактор при запуске Atom'
+      desc: 'Автоматически откроет пустой редактор при запуске.'
+    }
+    {
+      id: 'core.projectHome'
+      title: 'Каталог проекта по умолчанию'
+      desc: 'Каталог, в котором будут находится проекты, расширения, созданные при помощи генератора расширений, так же будут храниться здесь по умолчанию.'
+    }
+###
+    {
+      id: 'core.telemetryConsent'
+      title: 'Отправка команды Atom телеметрией'
+      desc: 'Позволяет отправлять отчеты об использовании и статистики Atom, чтобы помочь улучшить продукт.'
+      selectOptions: {
+        'Allow limited anonymous usage stats, exception and crash reporting':
+          value: 'Позволяет отправлять анонимную статистику, с ограниченными исключениями и отчеты о сбоях'
+        'Do not send any telemetry data':
+          value: 'Не посылать каких-либо данных телеметрии'
+        'Undecided (Atom will ask again next time it is launched)':
+          value: 'Еще не решил (Atom спросит в следующий раз когда он будет запущен)'
+      }
+    }
+    {
+      id: 'core.warnOnLargeFileLimit'
+      title: 'Предупреждение о больших файлах'
+      desc: 'Предупреждать, если при открытии файл превышает допустимый размер.'
+    }
+###
+
+# Editor Setting
+    {
+      id: 'editor.atomicSoftTabs'
+      title: 'Atomic Soft Вкладки*'
+      desc: 'Skip over tab-length runs of leading whitespace when moving the cursor.*'
+    }
+    {
+      id: 'editor.autoIndent'
+      title: 'Автоматические отступы'
+      desc: 'При вставке новой строки, курсор перемещается в положение автоматического отступа.'
+    }
+    {
+      id: 'editor.autoIndentOnPaste'
+      title: 'Автоматический отступ в момент вставки'
+      desc: 'Автоматический отступ вставленного текста, на основе отступа предыдущей строки.'
+    }
+    {
+      id:'editor.backUpBeforeSaving'
+      title:'Резервное копирование перед сохранением'
+      desc:'Если произошла ошибка ввода/вывода во время сохранения, то содержимое файла не исчезнет, т.к. создается временная резервная копия.'
+    }
+    {
+      id: 'editor.confirmCheckoutHeadRevision'
+      title: 'Подтверждение конторля Главной версии'
+      desc: 'Показать диалоговое окно подтверждения при выгрузке ГЛАВНОЙ версии и отменении изменения к текущему файлу начиная с последней фиксации.'
+    }
+    {
+      id: 'editor.fontFamily'
+      title: 'Шрифт'
+      desc: 'Название семейства шрифта, используемого для редактирования текста.'
+    }
+    {
+      id: 'editor.fontSize'
+      title: 'Размер шрифта'
+      desc: 'Высота шрифта (px)'
+    }
+    {
+      id:'editor.invisibles.cr'
+      title:'Invisibles Cr'
+      desc:'Character used to render carriage return characters (for Microsoft-style line endings) when the <code>Show Invisibles</code> setting is enabled.'
+    }
+    {
+      id:'editor.invisibles.eol'
+      title:'Invisibles Eol'
+      desc:'Character used to render newline characters (\n) when the <code>Show Invisibles</code> setting is enabled.'
+    }
+    {
+      id:'editor.invisibles.space'
+      title:'Invisibles Space'
+      desc:'Character used to render leading and trailing space characters when the <code>Show Invisibles</code> setting is enabled.'
+    }
+    {
+      id:'editor.invisibles.tab'
+      title:'Invisibles Tab'
+      desc:'Character used to render hard tab characters (\t) when the <code>Show Invisibles</code> setting is enabled.'
+    }
+    {
+      id: 'editor.lineHeight'
+      title: 'Высота строки'
+      desc: 'Высота линий редактора, как множитель размера шрифта.'
+    }
+    {
+      id: 'editor.nonWordCharacters'
+      title: 'Несловесный символ'
+      desc:'Строка символов, определяющих границы слов.'
+    }
+    {
+      id: 'editor.preferredLineLength'
+      title: 'Предпочтительная длина строки'
+      desc: 'Определяет <code>установленное количество символов в строке</code> для последующего переноса на следующую строку.'
+    }
+    {
+      id: 'editor.scrollPastEnd'
+      title: 'Переход к последней строке'
+      desc:'Разрешить редактору прокручиваться ниже конца последней строки.'
+    }
+    {
+      id: 'editor.scrollSensitivity'
+      title: 'Чувствительность прокрутки'
+      desc: 'Установить скорость полосы прокрутки при использовании мыши или сенсорного планшета.'
+    }
+    {
+      id: 'editor.showIndentGuide'
+      title: 'Отображает строку отступа'
+      desc: 'Отображение отступа строки в редакторе.'
+    }
+    {
+      id: 'editor.showInvisibles'
+      title: 'Показать невидимые символы'
+      desc: 'Отображает невидимый символы.'
+    }
+    {
+      id: 'editor.showLineNumbers'
+      title: 'Показать номера строк'
+      desc: 'Показать номера строк в строке состояния редактора.'
+    }
+    {
+      id: 'editor.softTabs'
+      title: 'Soft Tabs'
+      desc: 'If the <code>Tab Type</code> config setting is set to "auto" and autodetection of tab type from buffer content fails, then this config setting determines whether a soft tab or a hard tab will be inserted when the Tab key is pressed.'
+    }
+    {
+      id: 'editor.softWrap'
+      title: 'Перенос слов'
+      desc: 'Включить или отключить перенос слов в редакторе.'
+    }
+    {
+      id: 'editor.softWrapAtPreferredLineLength'
+      title: 'Soft Wrap At Preferred Line Length'
+      desc: 'Instead of wrapping lines to the windows width, wrap lines to the number of characters defined by the <code>Preferred Line Length</code> setting. This will only take effect when the soft wrap config setting is enabled globally or for the current language. <strong>Note:</strong>  If you want to hide the wrap guide (the vertical line) you can disable the <code>wrap-guide</code> package.'
+    }
+    {
+      id: 'editor.softWrapHangingIndent'
+      title: 'Soft Wrap Hanging Indent'
+      desc: 'When soft wrap is enabled, defines length of additional indentation applied to wrapped lines, in number of characters.'
+    }
+    {
+      id: 'editor.tabLength'
+      title: 'Длина Tabуляции'
+      desc: 'Количество пробелов, используемых для Tabуляции.'
+    }
+    {
+      id: 'editor.tabType'
+      title: 'Тип Tabуляции'
+      desc: 'Determine character inserted when Tab key is pressed. Possible values: "auto", "soft" and "hard". When set to "soft" or "hard", soft tabs (spaces) or hard tabs (tab characters) are used. When set to "auto", the editor auto-detects the tab type based on the contents of the buffer (it uses the first leading whitespace on a non-comment line), or uses the value of the Soft Tabs config setting if auto-detection fails.'
+    }
+    {
+      id: 'editor.undoGroupingInterval'
+      title: 'Отменить интервал группировки'
+      desc: 'Временной интервал в миллисекундах, в течение которого, операция редактирования текста будет сгруппированнп вместе в истории отмен.'
+    }
+    {
+      id: 'editor.useShadowDOM'
+      title: 'Использование тени модели DOM'
+      desc: 'Отключите, если возникают проблемы стиля с расширениями или темами. Убедитесь в том, что вы открыли вопрос по соответствующему расширению или темы, поскольку этот вариант временный и не подходит для нормального фукционирования ПО.'
+    }
+    {
+      id: 'editor.zoomFontWhenCtrlScrolling'
+      title: 'Масштабировать шрифт при зажатии Ctrl + колесико мыши'
+      desc: 'Удерживайте нажатой клавишу Ctrl и прокручивайте колесико мыши, чтобы увеличить или уменьшить размер шрифта.'
+    }
+# System Setting
+    {
+      id: 'system.windows.file-handler'
+      title: 'Зарегестрировать в качестве обработчика файлов'
+      desc: 'Показать Atom в списке приложений `Открыть с`, для леггкой ассоциации с типами файлов.'
+    }
+    {
+      id: 'system.windows.shell-menu-files'
+      title: 'Показывать в контекстном меню файла'
+      desc: 'Добавить пункт `Открыть в Atom`, контекстное меню для файла.'
+    }
+    {
+      id: 'system.windows.shell-menu-folders'
+      title: 'Показывать в контекстном меню папки'
+      desc: 'Добавить пункт `Открыть в Atom`, контекстное меню для папок.'
+    }
+  ]

@@ -1,0 +1,22 @@
+{
+  "name": "simplified-russian-menu",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Localization menu, context menu in Atom.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LexBacker/atom-simplified-russian-menu"
+  },
+  "license": "MIT",
+  "keywords": [
+    "language",
+    "russian",
+    "simplified"
+	],
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "cson": "3.0.1"
+  }
+}
