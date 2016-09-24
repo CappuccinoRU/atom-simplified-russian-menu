@@ -1,7 +1,7 @@
 {
   "name": "simplified-russian-menu",
   "main": "./lib/main",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Localization menu, context menu in Atom.io",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "language",
     "russian",
     "simplified"
-	],
+  ],
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
